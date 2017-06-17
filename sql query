@@ -1,0 +1,15 @@
+create sequence user_id start with 100 increment by 1;
+create table Users (id integer primary key,name varchar(30),email varchar(50),
+   address varchar(255),
+   password varchar(20),
+   newsletter number(1),
+   framework varchar(500),
+   sex varchar(1),
+   number_count integer,
+   country varchar(10),
+   skill varchar(500)
+);
+
+
+
+insert into user (user_id.currval, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
